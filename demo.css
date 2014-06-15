@@ -1,0 +1,57 @@
+#sectionContainer{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* get rid of the default margin */
+h2 {
+	margin: 0;
+}
+
+p{
+	margin: 0px 8px;	
+}
+
+/*info section styles*/
+section.info {
+	width: 328px;
+	max-height: 308px;
+	margin: 3px 3px 0 0;
+	float: left;
+	overflow: hidden;
+	-webkit-transition: max-height 0.75s ease 0s;
+	-moz-transition: max-height 0.75s ease 0s;
+	-ms-transition: max-height 0.75s ease 0s;
+	-o-transition: max-height 0.75s ease 0s;
+	transition: max-height 0.75s ease 0s;
+}
+
+section.info:hover {
+	max-height: 460px;
+}
+
+section.info h2 {
+	text-align:center;
+	color: white;
+	line-height: 45px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 1.6em;
+	font-weight: 100;
+}
+section.info img {
+	display: block;
+	margin: 0 auto 2em;
+}
+
+
+section.spotlight {
+	background: rgb(168, 88, 163);
+}
+section.show {
+	background: rgb(251, 174, 44);
+}
+section.events {
+	background: rgb(2, 99, 174);
+}
+
+
